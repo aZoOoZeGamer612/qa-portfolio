@@ -1,4 +1,4 @@
-# Sample Test Case - Haraj Plus seller blocking and sorting
+# Sample Test Case - Haraj Plus seller blocking and sorting persistence
 
 > **Portfolio sample:** This is a testing scenario based on Haraj Plus features. It is not a claim that this defect exists in the current public release.
 
@@ -7,11 +7,6 @@
 
 ## Objective
 Verify that blocked sellers remain hidden when the user changes sorting, refreshes the page, and restarts the browser.
-
-## Preconditions
-- Haraj Plus installed.
-- Search/results page with listings from multiple sellers.
-- At least one seller available to block.
 
 ## Test steps
 1. Open a results page.
@@ -28,12 +23,3 @@ Verify that blocked sellers remain hidden when the user changes sorting, refresh
 
 ## Expected result
 The blocked seller should remain hidden through sorting, refresh, and browser restart unless the user explicitly removes the block.
-
-## Things to record
-- Browser/version
-- Extension version
-- URL/search state
-- Seller identifier
-- Reproduction rate
-- Screenshots/video
-- Console errors, if relevant

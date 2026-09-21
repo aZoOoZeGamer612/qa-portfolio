@@ -26,7 +26,7 @@ What should happen.
 What actually happens.
 
 ## Impact
-How this affects the player/user.
+How this affects the player or user.
 
 ## Evidence
 - Screenshot:
